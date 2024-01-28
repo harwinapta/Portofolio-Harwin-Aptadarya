@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio | Harwin Aptadarya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <section id="home">
+      <nav class="navbar navbar fixed-top navbar-expand-lg bg-dark-subtle shadow rounded" data-aos="fade-down" data-aos-duration="2000">
+        <div class="container">
+          <a class="navbar-brand" href="#home">Harwin Aptadarya</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- End Navbar -->
+
+    <!-- Profile -->
+    <section id="profil" class="jumbotron text-center rounded-3">
+      <img src="img/Foto Wisuda_Harwin Aptadarya.jpg" class="img-thumbnail rounded-circle" data-aos="flip-up" data-aos-duration="1500" />
+      <h1 class="display-4 fw-bold" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="100">Harwin Aptadarya</h1>
+      <p class="lead fw-bold" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="200">Bachelor's Degree Electrical Engineering</p>
+    </section>
+    <!-- End Profile -->
+
+    <!-- About -->
+    <section class="rounded-3 p-5" id="about">
+      <div class="container">
+        <h2 class="fw-bold text-center p-3">SUMMARY</h2>
+        <div class="post">
+          <div class="row row-cols-2 justify-content-center fs-5 fw-semibold">
+            <div class="col-md-6" data-aos="fade-right">
+              As a dedicated and ambitious Bachelor of Electrical Engineering student, I am eager to leverage my academic foundation and hands-on experiences to contribute to the field.Outside of education, I'm active in campus
+              organizations to improve my problem solving, communication and teamwork skills.
+            </div>
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="100">
+              I have good abilities in working individually and in teams, time management, and good verbal communication. My experiences have given me a well-rounded set of skills beyond just technical expertise. I am currently seeking
+              opportunities to apply my knowledge in a professional setting.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Projects -->
+    <section class="container-fluid text-center rounded-3 p-5" id="projects">
+      <div class="container p-3">
+        <h2 class="fw-bold">PROJECTS</h2>
+        <div class="row">
+          <div class="col p-2 justify-content-center" style="display: flex">
+            <div class="card" style="width: 500px" data-aos="flip-down">
+              <img src="img/flutter1.jpeg" class="card-img-top" alt="Project Flutter" />
+              <div class="card-body">
+                <h5 class="card-title">FLUTTER & NODEMCU ESP-32</h5>
+                <p class="card-text">IoT Based Gas Leak Detection</p>
+                <a href="https://github.com/harwinapta/FLutter" target="_blank" class="btn bg-dark-subtle shadow rounded mb-3">Code</a>
+                <p>
+                  <button class="btn bg-dark-subtle shadow rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseflutter" aria-expanded="false" aria-controls="collapseflutter">Description</button>
+                </p>
+                <div style="width: auto">
+                  <div class="collapse collapse-horizontal" id="collapseflutter">
+                    <div class="card card-body" style="display: flex">
+                      This project creates a tool that can detect gas leaks using the MQ-6 sensor. The data read by this tool will be connected via Firebase so that it can be monitored. Data that has been connected to Firebase is
+                      distributed again to applications created with Flutter so that the tool can be monitored remotely through the application and using the internet. To get this application, you need to install it manually using a USB
+                      cable.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-2 justify-content-center" style="display: flex">
+            <div class="card" style="width: 500px" data-aos="flip-down" data-aos-delay="100">
+              <img src="img/dsave.jpg" class="card-img-top" alt="Project Bahasa C" />
+              <div class="card-body">
+                <h5 class="card-title">C LANGUAGE</h5>
+                <p class="card-text">Deposit Money & Buy or Sell Gold</p>
+                <a href="https://github.com/harwinapta/Bahasa-C/blob/main/TUBES.c" target="_blank" class="btn bg-dark-subtle shadow rounded mb-3">Code</a>
+                <p>
+                  <button class="btn bg-dark-subtle shadow rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapsec" aria-expanded="false" aria-controls="collapsec">Description</button>
+                </p>
+                <div style="width: auto">
+                  <div class="collapse collapse-horizontal" id="collapsec">
+                    <div class="card card-body" style="display: flex">
+                      This project is a prototype created so that users can deposit money and can also sell or buy gold. This project can only be accessed in several software such as Dev C++
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-2 justify-content-center" style="display: flex">
+            <div class="card" style="width: 500px" data-aos="flip-down" data-aos-delay="200">
+              <img src="img/upciweb.jpg" class="card-img-top" alt="Project HTML & CSS" />
+              <div class="card-body">
+                <h5 class="card-title">HTML & CSS</h5>
+                <p class="card-text">uPCI Laboratory Web</p>
+                <a href="https://github.com/harwinapta/upciweb.github.io" target="_blank" class="btn bg-dark-subtle shadow rounded mb-3">Code</a>
+                <p>
+                  <button class="btn bg-dark-subtle shadow rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseweb" aria-expanded="false" aria-controls="collapseweb">Description</button>
+                </p>
+                <div style="width: auto">
+                  <div class="collapse collapse-horizontal" id="collapseweb">
+                    <div class="card card-body" style="display: flex">
+                      This project is a website that functions to provide information about the uPCI lab and other practical matters such as Preliminary Assignment questions and also practical modules for material.
+                      <a href="//harwinapta.github.io/upciweb.github.io/" target="_blank"> this Web </a>better accessed via laptop and is still in the development process.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-2 justify-content-center" style="display: flex">
+            <div class="card" style="width: 500px" data-aos="flip-down" data-aos-delay="200">
+              <img src="img/Final Project.png" class="card-img-top" alt="Project HTML & CSS" />
+              <div class="card-body">
+                <h5 class="card-title">FINAL PROJECT</h5>
+                <p class="card-text">Speed Control of BLDC Motor Using Anti-Windup Method for PID Controller in Autonomus Electric Vehicle Drive Simulator</p>
+                <a href="https://github.com/harwinapta/Final-Project" target="_blank" class="btn bg-dark-subtle shadow rounded mb-3">Code</a>
+                <p>
+                  <button class="btn bg-dark-subtle shadow rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFP" aria-expanded="false" aria-controls="collapseweb">Description</button>
+                </p>
+                <div style="width: auto">
+                  <div class="collapse collapse-horizontal" id="collapseFP">
+                    <div class="card card-body" style="display: flex">
+                      Purpose of this final task is to improving the forward and reverse speed control system for BLDC motors on BRIN's three-wheeled autonomous electric vehicles, monitoring battery percentage through an interface, and an
+                      interface that can be used by users to operate the drive system on electric vehicles which is packaged into a BLDC motor rotational speed control simulator so that in the development process This drive system is more
+                      effective and easier to used.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects -->
+
+    <!-- Contact -->
+    <section class="rounded-3" id="contact">
+      <div class="container rounded-3">
+        <h2 class="fw-bold text-center">Contact</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <fieldset disabled>
+                <div class="mb-3">
+                  <label for="disabledTextInput" class="form-label">My Email</label>
+                  <input type="text" id="disabledTextInput" class="form-control" placeholder="Harwinapta31@gmail.com" />
+                </div>
+                <div class="mb-3">
+                  <label for="disabledTextInput" class="form-label">My Phone Number</label>
+                  <input type="text" id="disabledTextInput" class="form-control" placeholder="081386179779" />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">My Instagram</label>
+                  <a href="https://www.instagram.com/harwinapta/" target="_blank">
+                    <input type="text" class="form-control" placeholder="@harwinapta" />
+                  </a>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <div class="footer bg-dark-subtle text-center rounded p-1 shadow fw-bold">
+      <h5>Made By Harwin Aptadarya</h5>
+    </div>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
